@@ -1,0 +1,32 @@
+/* CSS declarations go here */
+
+.fold {
+  height: 600px;
+  background: url('img/future.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.carousel-inner > .item > img{
+       height:425px;
+}
+
+.fold-text {
+  margin-top: 193px;
+  text-align: center;
+}
+
+.fold-text h1 {
+  margin-bottom: .5em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 5.5em;
+  color: pink;
+  /*animation-duration: 1s;
+  -moz-animation-duration: 1s;
+   -webkit-animation-duration: 1s;
+  animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;*/
+}
